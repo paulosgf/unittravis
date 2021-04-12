@@ -3,6 +3,7 @@
 import unittest
 from my_sum import sum
 
+
 class TestSum(unittest.TestCase):
     def test_list_int(self):
         """
@@ -12,10 +13,11 @@ class TestSum(unittest.TestCase):
         result = sum(data)
         self.assertEqual(result, 6)
 
-    def test_bad_type(self):
-        data = "banana"
-        with self.assertRaises(TypeError):
-            result = sum(data)
-    
-if __name__ == '__-main__':
+
+#    def test_bad_type(self):
+#        data = "banana"
+#        with self.assertRaises(TypeError):
+#            result = sum(data)
+
+if __name__ == "__-main__":
     unittest.main()
