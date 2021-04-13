@@ -18,5 +18,6 @@ class TestSum(unittest.TestCase):
         with self.assertRaises(TypeError):
             result = sum(data)
 
+
 if __name__ == "__main__":
     unittest.main()
