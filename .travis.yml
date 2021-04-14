@@ -3,10 +3,12 @@ python:
         - "2.7"
         - "3.6"
 install:
-        - pip install flake8        
+        - pip install flake8
 script:
-        - python -m unittest discover
+        - python -m unittest discover        
 matrix:
         include:
+                - python: "2.7"
+                  script: "flake8"
                 - python: "3.6"
-                  script: flake8
+                  script: "flake8"        
