@@ -5,4 +5,4 @@ python:
 install:
         - pip install flake8
 script:
-        - pythom -m unittest discover        
+        - python -m unittest discover        
