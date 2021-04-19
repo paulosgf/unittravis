@@ -1,4 +1,4 @@
 [flake8]
-ignore = F841
-exclude = .git,.travis.yml,tox.ini
+ignore = E302,F841
+exclude =.git
 max-line-length = 90
