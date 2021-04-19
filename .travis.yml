@@ -6,7 +6,3 @@ install:
         - pip install flake8
 script:
         - python -m unittest discover        
-matrix:
-        include:
-                - python: "3.6"
-                  script: "flake8"        
