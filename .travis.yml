@@ -9,6 +9,4 @@ script:
 matrix:
         include:
                 - python: "2.7"
-                  script: "flake8"
-                - python: "3.6"
                   script: "flake8"        
